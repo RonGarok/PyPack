@@ -37,4 +37,4 @@ Aucune installation nécessaire : double‑cliquez et utilisez PyPack immédiate
 ```bash
 git clone https://github.com/HeXSect0r/PyPack.git
 cd PyPack
-python main.py
+python app.py
