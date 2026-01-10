@@ -44,7 +44,6 @@ Avantages :
 - Compatibilité maximale avec les paquets PyPI.
 - Wheels disponibles pour presque tout.
 - `pip` fonctionne parfaitement.
-- `tkinter` stable.
 - Aucune dépréciation majeure.
 
 👉 **Python 3.10 est le “sweet spot”.**
@@ -67,7 +66,6 @@ Problèmes :
 - De nombreux paquets n’ont pas encore de wheels.
 - Suppression de modules internes (ex : `distutils`).
 - Certains paquets échouent à la compilation.
-- `tkinter` OK, mais certaines libs GUI tierces ne sont pas prêtes.
 
 ➡️ PyPack fonctionne, mais **l’installation de paquets peut échouer**.
 
