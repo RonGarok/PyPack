@@ -26,20 +26,20 @@ Le message d’erreur indique que le fichier contient un **virus ou un logiciel 
 ## 🧪 2. Analyse technique
 
 - Le fichier est détecté comme potentiellement dangereux par Windows Defender.
-- Aucun comportement malveillant n’a été identifié dans le code source de PyPackV1.
+- Aucun comportement malveillant n’a été identifié dans le fonctionnement de PyPackV1.
 - Le blocage semble lié :
-  - à la méthode d’emballage utilisée pour l’exécutable (PyInstaller, Nuitka, etc.),
+  - à la méthode d’emballage utilisée pour l’exécutable,
   - à l’absence de signature numérique,
   - ou à des heuristiques trop agressives du moteur antivirus.
 
 ---
 
-## 🛠️ 3. Solutions envisagées
+## 🛠️ 3. Contournements proposés
 
-- Recompiler l’exécutable avec une signature numérique valide.
-- Modifier les options de build pour éviter les triggers heuristiques.
-- Soumettre le fichier à Microsoft pour analyse et whitelisting.
-- Fournir une version alternative en `.zip` contenant les sources ou un installeur léger.
+- Utiliser un autre antivirus ou désactiver temporairement la protection en temps réel (⚠️ à vos risques).
+- Déplacer le fichier dans un répertoire non surveillé.
+- Lancer l’exécutable via PowerShell ou CMD avec élévation.
+- Fournir une version alternative `.zip` contenant les fichiers nécessaires à l’exécution manuelle.
 
 ---
 
@@ -70,20 +70,20 @@ The error message states that the file contains a **virus or potentially unwante
 ## 🧪 2. Technical Analysis
 
 - The file is flagged as potentially harmful by Windows Defender.
-- No malicious behavior has been found in PyPackV1’s source code.
+- No malicious behavior has been observed in PyPackV1’s runtime.
 - The block appears related to:
-  - the packaging method used (PyInstaller, Nuitka, etc.),
+  - the packaging method used for the executable,
   - lack of digital signature,
   - or overly aggressive heuristic detection.
 
 ---
 
-## 🛠️ 3. Proposed Solutions
+## 🛠️ 3. Suggested Workarounds
 
-- Recompile the executable with a valid digital signature.
-- Adjust build options to avoid heuristic triggers.
-- Submit the file to Microsoft for review and whitelisting.
-- Provide an alternative `.zip` version with sources or a lightweight installer.
+- Use a different antivirus or temporarily disable real-time protection (⚠️ at your own risk).
+- Move the file to a non-monitored folder.
+- Launch the executable via PowerShell or CMD with elevation.
+- Provide an alternative `.zip` version with manually executable files.
 
 ---
 
