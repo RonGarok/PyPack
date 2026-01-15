@@ -97,11 +97,3 @@ Ces moteurs n’ont pas pu analyser le fichier.
 | Symantec Mobile Insight | Unable to process file type |
 
 ---
-
-## 📌 Résumé rapide
-
-- **19 moteurs** détectent ton `.exe` comme une menace (faux positif).  
-- **Plus de 50 moteurs** ne détectent **rien du tout**.  
-- Les détections viennent surtout de moteurs **heuristiques/ML agressifs**.  
-- Nuitka + packaging onefile = **déclencheur classique** de trojan.mikey.
-
