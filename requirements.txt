@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+PySide6
+requests
+=======
+PySide6
+requests
+>>>>>>> 2474df5d08a01f1f2c138d72edd5319b730733be
+googletrans
