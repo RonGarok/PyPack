@@ -1,3 +1,4 @@
 PySide6
 requests
 googletrans
+deep-translator
