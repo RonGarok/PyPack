@@ -35,6 +35,7 @@ Aucune installation nécessaire : double‑cliquez et utilisez PyPack immédiate
 
 ### Autres plateformes
 ```bash
-git clone https://github.com/HeXSect0r/PyPack.git
+git clone https://github.com/RonGarok/PyPack
 cd PyPack
+pip install -r requirements.txt
 python app.py
