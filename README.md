@@ -25,4 +25,23 @@ Compatible Windows 64-bit et Linux 64-bit.
 ---
 
 ## 🐧 Instructions Linux
+wget https://raw.githubusercontent.com/RonGarok/PyPack/releases/linux/V1/PyPackV2 (raw.githubusercontent.com in Bing)
+chmod +x PyPackV2
+./PyPackV2
+
+---
+
+
+---
+
+## 🛠️ Compilation & Build
+
+Les versions Linux et Windows sont compilées manuellement pour garantir un fonctionnement portable.  
+
+---
+
+## 📝 Licence
+
+**MIT**
+
 
