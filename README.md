@@ -24,6 +24,13 @@ Compatible Windows 64-bit et Linux 64-bit.
 
 ---
 
+
+## Téléchargement Simple :
+
+PyPack.ct.ws
+
+---
+
 ## 🛠️ Compilation & Build
 
 Les versions Linux et Windows sont compilées manuellement pour garantir un fonctionnement portable.  
