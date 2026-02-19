@@ -6,7 +6,7 @@ CONFIG_FILE = os.path.abspath(CONFIG_FILE)
 
 def load_config():
     if not os.path.exists(CONFIG_FILE):
-        return {"language": "fr"}
+        return {"language": "en"}
     with open(CONFIG_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
