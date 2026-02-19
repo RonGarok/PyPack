@@ -27,7 +27,7 @@ Compatible Windows 64-bit et Linux 64-bit.
 
 ## Téléchargement Simple :
 
-PyPack.ct.ws
+[PyPack](PyPack.ct.ws)
 
 ---
 
